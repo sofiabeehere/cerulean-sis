@@ -1,0 +1,40 @@
+/*general page grid*/
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] { /* looks at the attributes of elements: <div class="grid-col-expandable"> */
+	float: left;
+	padding: 0;
+}
+
+.grid-col-100of100 {
+	width: 100%;
+}
+
+.grid-col-60of100 {
+	width: 66.67%;
+}
+
+.grid-col-50of100 {
+	width: 50%;
+}
+
+.grid-col-40of100 {
+	width: 40%;
+}
+
+.grid-col-30of100 {
+	width: 33.3%;
+}
+
+.grid-col-25of100 {
+	width: 25%;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}

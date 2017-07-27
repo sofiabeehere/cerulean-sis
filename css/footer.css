@@ -1,0 +1,25 @@
+/*Footer Style*/
+
+.footer p, .footer {
+	background-color: #17161E;
+	color: #fff;
+	padding: 0.2em 0;
+
+}
+
+.copyright {
+	text-align: center; 
+	margin-bottom: 0; 
+	padding-bottom: 0;
+}
+
+.author {
+	text-align: center; 
+	margin-top: 0; 
+	padding-top: 0;
+}
+
+.author a {
+	font-style: italic;
+	color: inherit;
+}

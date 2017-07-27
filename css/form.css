@@ -1,0 +1,429 @@
+body {
+	margin: 0;
+	background-color: #D3E1E1;
+}
+
+/*Homepage Style*/
+.parallax1 {
+	background-image: url('laptop-notebook-grass-meadow.jpg');
+	width: auto;
+	min-height: 35em;
+	background-attachment: fixed;
+   	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.main-content {
+	margin: auto;
+    	width: 100%;
+    	height: 600px;
+    	background-color: white;
+    	padding: 5em 15%;
+}
+
+.main-content h2,
+.main-content p,
+.main-content a {
+	padding: 0 20px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+    	font-size: 16pt;
+    	color: #17161E;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+    	font-size: 14pt;
+    	line-height: 1.6em;
+    	letter-spacing: 0.20em;
+    	color: #17161E;
+}
+
+p, ul li {
+	font-family: 'Roboto', sans-serif;
+    	font-size: 11pt;
+    	line-height: 1.6em;
+    	color: #17161E;
+}
+
+.main-content a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 0.8em 20px;
+	margin: 0 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	color: #5DA4A9;
+	-webkit-transition: color 0.2s;
+    	transition: color 0.2s;
+}
+
+.main-content a:hover {
+	color: #417276;
+	-webkit-transition: color 0.2s;
+    	transition: color 0.2s;
+}
+
+.main-content .hyperlink {
+	display: inline;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.main-content .more-courses-button {
+	float: right;
+	border: 0;
+}
+
+/*Programs Page Style*/
+.programs-page {
+	padding: 8% 10%;
+}
+
+.programs-page article {
+	background-color: #fff;
+	border: 1px solid #17161E;;
+	padding: 2%;
+}
+
+.programs-page h3 {
+	margin: 0;
+	letter-spacing: 0.1em;
+}
+
+/*Admissions Page Style*/
+
+/*general form and student information section*/
+
+.form-body {
+	display: none;
+}
+
+#form1{
+	display: block;
+	width: 50%;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 1em 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.form-fields {
+	text-align: left; 
+	padding: 0 2em;
+	margin-left: 1em;
+}
+
+input[type = "text"], select {
+	display: block;
+    	width: 90%;
+	height: 2em;
+    	margin-bottom: 1em;
+}
+
+label, input[type="text"], option, select {
+	font-family: 'Roboto', sans-serif;
+    	font-size: 10pt;
+    	padding: 1em 0;
+    	margin-top: 0.5em;
+}
+
+.submission {
+	padding-top: 1em;
+	text-align: center;
+}
+
+select, #country {
+	padding: 0;
+	height: 2.5em;
+}
+
+.form-intro-content {
+	background-color: #fff;
+	position: absolute; 
+  	top: 33.3%; 
+  	left: 25%; 
+	width: 50%; 
+	text-align: center;
+	padding: 1em;
+}
+
+.submit-application {
+	padding: 0;
+	margin: 1em;
+	width: 35%;
+	background-color: #fff;
+	color: #17161E;
+	border-radius: 5px;
+	border: 1px solid #17161E;
+	-webkit-transition: background-color 0.2s;
+    	transition: background-color 0.2s;
+}
+
+.submit-application:hover {
+	background-color: #17161E;
+}
+
+.submit-application p {
+	font-size: 11pt;
+	color: #17161E;
+}
+
+.submit-application:hover p {
+	color: #fff;
+}
+
+/*family information section*/
+
+details.accordion {
+	display: inline-block;
+    border-radius: 3px;
+    width: 90%;
+    margin: 0.5em 1em;
+    background: #EEE;
+}
+
+details.accordion summary.accordion-panel{
+    font-family: 'Univers LT 45 Light', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    background: #DEE0DC;
+    color: #000000;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+details.accordion summary.accordion-panel label {
+	font-family: 'Univers LT 45 Light', 'Roboto', sans-serif;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	padding-right: 100%;
+    	margin-left: -10%;
+    	padding-left: 10%;
+}
+
+details.accordion[open] summary.accordion-panel {
+    background: #CCCFCA;
+    padding: 0.5em 1em;
+    color: #000000;
+}
+
+details.accordion[open] p {
+    align-content: center;
+    padding: 0em 1em 1em 1em;
+    width: 98%;
+}
+
+details.accordion[open] p.info-break {
+    align-content: center;
+    padding: 0 0 1em 1em;
+    width: 98%;
+    margin: 0;
+}
+
+details.accordion[open] p.info-title {
+    align-content: center;
+    padding: 1em 0 0 1em;
+    width: 98%;
+    margin: 0;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+.accordion-content {
+	margin: 0.5em 0 0.5em 1.3em
+}
+
+#state {
+	width: 90%;
+	height: 2em;
+}
+
+/*educational information*/
+
+.listbox {
+	height: 5em;
+	width: 95%;
+	padding: 0;
+}
+
+.option-listbox {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/*submission area*/
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+    	font-size: 11pt;
+    	font-weight: bold;
+    	text-align: left; 
+    	line-height: 1em;
+    	padding-bottom: 0.5em;
+    	margin-bottom: 0.5em;
+    	color: #17161E;
+    	border-bottom: 1px solid #17161E;
+}
+
+.submit-application {
+	display: block;
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.warning-label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	font-style: italic;
+	line-height: 0.5em;
+	color: red;
+}
+
+.success-label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	font-style: italic;
+	line-height: 0.5em;
+	color: #17161E;;
+}
+
+
+/* Course Page Style */
+.courselist {
+	padding: 8% 10%;
+}
+
+.sort {
+	display: inline-block;
+	float: right;
+	padding-right: 7%;
+	margin-top: -8%;
+}
+
+label[for=sort-dropdown]{
+	float: left;
+	padding-right: 0.5em;
+	margin-top: 0.1em;
+}
+
+select.sort-dropdown {
+	display: inline-block;
+	width: 78.5%
+}
+
+.filter-box {
+	margin-top: 18%;
+	padding: 1em;
+	background-color: white;
+	border: 1px solid #17161E;
+}
+
+.filter-box h3 {
+	text-align: center;
+	margin: auto;
+}
+
+.filter-box input[type=text]{
+	width: 100%;
+}
+
+.grade-filter, .subject-filter, .term-filter {
+	width: 100%;
+}
+
+.filter-box input[type=radio] {
+	visibility: hidden;
+	display: none;
+}
+
+.filter-box label {
+	margin: 1em 0;
+	border: 1px solid #17161E;
+	display: block;
+	text-align: center;
+	color: white;
+	background-color: #17161E;
+}
+
+label[for=reset]{
+	display: block;
+	width: 100%;
+	border: 1px solid #17161E;
+	padding: 0.5em 1em;
+	color: white;
+	background-color: #17161E;
+	border-radius: 5px;
+	margin: auto;
+}
+
+#courselist-boxes {
+	padding: 0;
+}
+
+#courselist-boxes li {
+	background-color: #fff;
+	padding: 1em;
+	margin: 0 3em 1em 0;
+	border: 1px solid #17161E;
+	list-style-type: none;
+}
+
+.enroll-button {
+	display: inline;
+	float: right;
+}
+
+.course-label {
+	margin: 0;
+	letter-spacing: 0.1em;
+}
+
+#courselist-boxes p {
+	margin: 0.5em 0;
+}
+
+#courselist-boxes a{
+	text-decoration: none;
+}
+
+.enroll-button, .enroll-button a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #5DA4A9;
+	background-color: transparent;
+	border: 0;
+	float: right;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.enroll-button:hover a {
+	color: #417276;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: inline-block;
+}
